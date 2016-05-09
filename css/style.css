@@ -9,7 +9,7 @@ img {
 
 /* +++++++++++++++++++++++++++ */
 html, body {
-  height: 100%; }
+  min-height: 100%; }
 
 /* +++++++++++++++++++++++++++ */
 body {
@@ -114,5 +114,22 @@ button {
 
   .plan:first-of-type, .plan:last-of-type {
     margin: 0; } }
+@media screen and (max-height: 699px) {
+  .pricing {
+    margin: 20px 0; }
+
+  h3 {
+    line-height: 60px; }
+
+  .price {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 80px; }
+
+  li {
+    padding: 3px 20px; }
+
+  .plan:nth-of-type(2) li {
+    line-height: 60px; } }
 
 /*# sourceMappingURL=style.css.map */
