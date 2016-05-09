@@ -1,0 +1,25 @@
+{
+  "name": "pricing",
+  "version": "1.0.0",
+  "description": "Pricing boxes with flexbox",
+  "main": "compiled/main.js",
+  "scripts": {
+    "babel": "babel js -ws -d compiled --presets es2015,stage-2",
+    "browser-sync": "browser-sync start --server --files \"*.html, css/*.css, compiled/*.js\" --no-notify --no-open",
+    "run": "npm run babel & npm run browser-sync"
+  },
+  "keywords": [
+    "Javascript",
+    "esnext",
+    "vscode"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "babel-preset-stage-2": "*",
+    "stylelint": "*",
+    "stylelint-config-standard": "^6.0.0"
+  }
+}
