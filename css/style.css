@@ -113,7 +113,10 @@ button {
     margin: 20px 0; }
 
   .plan:first-of-type, .plan:last-of-type {
-    margin: 0; } }
+    margin: 0; }
+
+  h3, .price, ul {
+    padding: 0 15px; } }
 @media screen and (max-height: 699px) {
   .pricing {
     margin: 20px 0; }
@@ -127,9 +130,11 @@ button {
     line-height: 80px; }
 
   li {
-    padding: 3px 20px; }
-
-  .plan:nth-of-type(2) li {
-    line-height: 60px; } }
+    padding: 10px 20px; } }
+@media screen and (max-height: 699px) and (max-width: 915px) {
+  .plan li {
+    line-height: 30px;
+    min-height: 66px;
+    vertical-align: bottom; } }
 
 /*# sourceMappingURL=style.css.map */
