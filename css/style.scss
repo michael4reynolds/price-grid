@@ -120,3 +120,25 @@ button {
 .plan:nth-of-type(2) {
   flex-basis: 60px;
 }
+
+@media screen and (max-width: 600px) {
+  .pricing {
+    display: block;
+  }
+
+  html, body {
+    height: auto;
+  }
+
+  .plan {
+    overflow: hidden;
+  }
+
+  .plan:nth-of-type(2) {
+    margin: 20px 0;
+  }
+
+  .plan:first-of-type, .plan:last-of-type {
+    margin: 0;
+  }
+}
