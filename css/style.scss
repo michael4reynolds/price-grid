@@ -89,6 +89,7 @@ button {
 /* +++++++++++++++++++++++++++ */
 .pricing {
   display: flex;
+  margin: 20px 0;
   width: 960px;
 }
 
@@ -149,10 +150,6 @@ button {
 }
 
 @media screen and (max-height: 699px) {
-  .pricing {
-    margin: 20px 0;
-  }
-
   h3 {
     line-height: 60px;
   }
